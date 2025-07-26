@@ -1,71 +1,7 @@
 
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0; padding: 0; background: #f5f7fa; color: #333;
-}
-.nav-container {
-  background: #1b2a49;
-  display: flex; justify-content: space-between;
-  align-items: center; padding: 10px 30px;
-}
-.logo {
-  height: 50px;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-.hero {
-  background: linear-gradient(to right, #2980b9, #2c3e50);
-  color: white; padding: 40px 20px; text-align: center;
-}
-section {
-  padding: 40px 20px;
-}
-h2 {
-  color: #2c3e50;
-  margin-bottom: 20px;
-}
-ul li {
-  margin-bottom: 10px;
-}
-.gallery {
-  display: flex; flex-wrap: wrap;
-  gap: 20px;
-}
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  flex: 1 1 250px;
-}
-form {
-  max-width: 500px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-}
-input, textarea {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-button {
-  background: #2c3e50;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-footer {
-  background: #1b2a49;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-}
+body { font-family: Arial, sans-serif; margin: 0; background: #f9fbfc; }
+.hero { background: #1b2a49; color: white; text-align: center; padding: 100px 20px; }
+.hero-logo { max-width: 100px; margin-bottom: 20px; }
+.cta-button { background: #007bff; color: white; padding: 12px 25px; border: none; text-decoration: none; font-weight: bold; border-radius: 5px; }
+section { padding: 60px 20px; text-align: center; }
+footer { background: #222; color: white; text-align: center; padding: 20px; }
